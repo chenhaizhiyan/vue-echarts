@@ -11,12 +11,10 @@ export default {
     name: 'VueECharts',
     format: 'umd',
     globals: {
-      vue: 'Vue',
       'echarts/lib/echarts': 'echarts'
     }
   },
   external: [
-    'vue',
     'echarts/lib/echarts'
   ],
   plugins: [
